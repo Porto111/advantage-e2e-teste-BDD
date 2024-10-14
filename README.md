@@ -36,10 +36,10 @@ Execute `npm run test:tablet` para executar os testes apropriados no modo headle
 
 ### Modo interativo
 
-Execute `npm run cy:open` para abrir o __Cypress App__ para executar testes no modo interativo usando uma viewport de desktop.
+Execute `npm run cy:open` para abrir o **Cypress App** para executar testes no modo interativo usando uma viewport de desktop.
 
-Execute `npm run cy:open:tablet` para abrir o __Cypress App__ para executar testes no modo interativo usando uma viewport de tablet.
+Execute `npm run cy:open:tablet` para abrir o **Cypress App** para executar testes no modo interativo usando uma viewport de tablet.
 
-___
+---
 
-Feito com ❤️ por [seu-nome-aqui]((https://github.com/Porto111)).
+Feito com ❤️ por [Porto111](<(https://github.com/Porto111)>).
