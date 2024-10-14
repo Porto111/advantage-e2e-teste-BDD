@@ -1,6 +1,6 @@
 module.exports = {
     default: {
-        stepDefinitions: 'cypress/e2e/step_definitions/',
+        stepDefinitions: 'cypress/suport/step_definitions/',
         // Local dos seus step definitions
     },
 

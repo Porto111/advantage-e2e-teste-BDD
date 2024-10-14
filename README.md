@@ -7,7 +7,7 @@ Projeto de amostra para demonstrar testes de ponta a ponta (e2e) escritos com [C
 Para clonar e executar este projeto, você precisará de:
 
 - [git](https://git-scm.com/downloads) (usei a versão `2.34.1` ao escrever este documento)
-- [Node.js](https://nodejs.org/en/) (usei a versão `v18.16.1` ao escrever este documento)
+- [Node.js](https://nodejs.org/en/) (usei a versão `v21.2.0` ao escrever este documento)
 - npm (usei a versão `9.8.0` ao escrever este documento)
 
 **Observação:** Ao instalar o Node.js, o npm é instalado automaticamente. 🚀
@@ -33,12 +33,6 @@ Neste projeto, você pode executar testes nos modos interativo e headless, tanto
 Execute `npm test` (ou `npm t` para abreviar) para executar todos os testes no modo headless usando uma viewport de desktop.
 
 Execute `npm run test:tablet` para executar os testes apropriados no modo headless usando uma viewport de tablet.
-
-### Modo interativo
-
-Execute `npm run cy:open` para abrir o **Cypress App** para executar testes no modo interativo usando uma viewport de desktop.
-
-Execute `npm run cy:open:tablet` para abrir o **Cypress App** para executar testes no modo interativo usando uma viewport de tablet.
 
 ---
 
