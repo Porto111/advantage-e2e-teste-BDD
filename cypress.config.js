@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber());
     },
-    specPattern: 'cypress/integration/**/*.feature',
+    specPattern: 'cypress/e2e/**/*.feature',
   },
   baseurl: 'https://advantageonlineshopping.com/#/',
   env: {
