@@ -5,7 +5,9 @@ Given('o usuário acessa a página de login', () => {
     loginPage.visit();
 });
 
-When('o usuário insere o nome de usuário {string} e a senha {string}', (username, password) => {
+When('o usuário insere o nome de usuário {string} e a senha {string}', () => {
+    const username = Cypress.env('USER_NAME');
+    const password = Cypress.env('USER_PASSWORD');
     loginPage.login(username, password);
 });
 

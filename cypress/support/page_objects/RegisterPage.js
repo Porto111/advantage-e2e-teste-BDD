@@ -3,8 +3,10 @@ class RegisterPage {
         cy.visit('https://advantageonlineshopping.com/#/register');
     }
 
-    fillForm(username, password) {
-        cy.get(':nth-child(2) > [a-hint="Username"]').type(username);
+    fillForm() {
+        const username = Cypress.env('USER_NAME');
+        const password = Cypress.env('USER_PASSWORD');
+        cy.get('input[name="usernameRegisterPage"]').type(username);
         cy.get('[sec-name="userEmail"]').type('guiporto88@gmail.com');
         cy.get(':nth-child(3) > [a-hint="Password"]').type(password, { log: false });
         cy.get('[a-hint="Confirm password"]').type(password, { log: false });
